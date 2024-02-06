@@ -1,5 +1,7 @@
 import { createLazyFileRoute } from '@tanstack/react-router';
 
+console.log('Heavy choice');
+
 const About = () => {
 	return (
 		<div className='p-2'>
